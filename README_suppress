@@ -1,0 +1,1 @@
+valgrind --leak-check=full --suppressions=xmalloc.supp --show-reachable=yes ./minishell -v

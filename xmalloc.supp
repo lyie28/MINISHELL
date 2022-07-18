@@ -1,0 +1,25 @@
+{
+	name1
+	Memcheck:Cond
+	obj:/lib/x86_64-linux-gnu/libreadline.so.7.0
+}
+
+{
+	name2
+	Memcheck:Free
+	obj:/lib/x86_64-linux-gnu/libreadline.so.7.0
+}
+
+{
+	name3
+	Memcheck:Value8
+	obj:/lib/x86_64-linux-gnu/libreadline.so.7.0
+}
+
+{
+	name4
+	Memcheck:Leak
+	...
+	obj:/lib/x86_64-linux-gnu/libreadline.so.7.0
+	...
+}
